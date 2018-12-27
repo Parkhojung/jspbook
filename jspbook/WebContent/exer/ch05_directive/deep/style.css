@@ -1,0 +1,92 @@
+div {
+    display: inline-table;
+}
+
+div#header  { width: 1150px; height: 100px; }
+div#main    { width: 1150px; height: 550px; }
+div#footer  { width: 1150px; height: 100px; background: #1f2b3c; }
+div#header_logo { width: 400px; height: 100px; float: left; }
+div#header_menu { width: 750px; height: 100px; }
+div#section_slide   { width: 1150px; height: 310px; }
+div#section_notice  { width: 575px; height: 240px; float: left; }
+div#section_board   { width: 575px; height: 240px; }
+div#footer_logo { width: 400px; height: 100px; float: left; }
+div#footer_copy { width: 750px; height: 100px; } 
+
+img.header_logo { position: relative; top: 20px; left: 20px; }
+img.footer_logo { position: relative; top: 25px; left: 25px; }
+
+#header_menu ul {
+    position: relative;
+    top: 20px;
+    }
+
+#header_menu li {
+    list-style-type: none;
+    display:inline;
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 16pt;
+    }
+    
+#section_notice h1 {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #333333;
+    margin: 20px 10px 10px 30px;
+    }
+
+#section_notice ul {
+    position: relative;
+    margin: 0px;
+    }
+
+#section_notice li {
+    list-style-type: none;
+    margin: 5px 0px;
+    padding: 0px;
+    font-size: 12pt;
+    line-height: 160%;
+    }
+
+#section_board h1 {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #333333;
+    margin: 20px 10px 10px 30px;
+    }
+
+#section_board ul {
+    position: relative;
+    margin: 0px;
+    }
+
+#section_board li {
+    list-style-type: none;
+    margin: 5px 0px;
+    padding: 0px;
+    font-size: 12pt;
+    line-height: 160%;
+    }
+    
+#footer_copy ul {
+    position: relative;
+    margin: 20px 0px;;
+    list-style-type: none;
+    }
+
+#footer_copy li.copy {
+    margin: 5px 0px;
+    padding: 0px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: yellow;
+}    
+
+#footer_copy li.addr {
+    margin: 5px 0px;
+    padding: 0px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #cccccc;
+}    
